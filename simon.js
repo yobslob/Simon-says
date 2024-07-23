@@ -6,6 +6,7 @@ let score = 0;
 let btns = document.querySelectorAll(".circle");
 let start = document.querySelector(".start");
 let h3 = document.querySelector("h3");
+
 let audio = {
     red: new Audio("sounds/red.mp3"),
     green: new Audio("sounds/green.mp3"),
